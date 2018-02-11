@@ -1,0 +1,17 @@
+include variables
+
+mixin main
+
+  doctype html
+  
+  html
+    head
+      include head
+    body
+   
+      if block
+        block
+      else
+        p No content provided 
+
+      include app-scripts

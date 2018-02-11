@@ -1,0 +1,28 @@
+{
+  "name": "manageo-test-plain",
+  "version": "1.0.0",
+  "description": "Manageo Front-End Test without scafolding",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SouhailRAZZOUK/manageo-test.git"
+  },
+  "author": "Souhail RAZZOUK <souhail.razzouk@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SouhailRAZZOUK/manageo-test/issues"
+  },
+  "homepage": "https://github.com/SouhailRAZZOUK/manageo-test#readme",
+  "devDependencies": {
+    "connect-history-api-fallback": "^1.4.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {}
+}

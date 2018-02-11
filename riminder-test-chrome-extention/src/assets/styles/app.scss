@@ -1,0 +1,28 @@
+@import "login";
+@import "spinner";
+@import "home";
+
+html,
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+#main-popup {
+  width: 320px;
+  min-height: 100px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  .hidden {
+    display: none;
+  }
+  .logo {
+    font-family: 'Lobster', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  }
+}

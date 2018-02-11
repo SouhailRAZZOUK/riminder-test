@@ -1,0 +1,85 @@
+.home {
+  min-height: 420px;
+}
+
+.picture {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-position: center;
+  background-size: cover;
+}
+
+.floater-profile {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+}
+
+.user-info {
+  position: relative;
+  z-index: 1;
+}
+
+.floater-background {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #343434;
+  opacity: 0.7;
+}
+
+.logout-button,
+.getBG {
+  margin-bottom: 15px !important;
+}
+
+.floater-profile * {
+  color: #fff;
+}
+
+.nickname::before {
+  content: '@'
+}
+
+.page-content {
+  padding: 10px;
+}
+
+.search .mdl-textfield{
+  width: 100% !important;
+  margin: 10px;
+}
+
+.title,
+.url {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  white-space: nowrap;
+  box-sizing: border-box;
+  display: block;
+}
+
+.keywords .mdl-chip {
+  margin: 2px;
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.add-button {
+  position: sticky;
+  bottom: 10px;
+  left: 100%;
+  z-index: 999;
+}

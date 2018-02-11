@@ -1,0 +1,7 @@
+flask
+python-dotenv
+python-jose-cryptodome
+flask-cors
+six
+requests
+Flask-PyMongo

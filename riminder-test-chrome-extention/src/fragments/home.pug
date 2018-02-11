@@ -1,0 +1,40 @@
+.home.hidden
+
+  .mdl-layout.mdl-js-layout.mdl-layout--fixed-header
+    header.mdl-layout__header
+      .mdl-layout__header-row
+        span.mdl-layout-title.logo Book't
+        .mdl-layout-spacer
+        button#header-dropdown.mdl-button.mdl-js-button.mdl-button--icon
+          i.material-icons more_vert
+        ul.mdl-menu.mdl-menu--bottom-right.mdl-js-menu(for='header-dropdown')
+          li.mdl-menu__item(disabled='') Upgrade
+          li.mdl-menu__item.logout-button Log Out
+
+    .mdl-layout__drawer
+      span.mdl-layout-title.logo Book't
+      nav.mdl-navigation
+        a.home-link.mdl-navigation__link(href='') Home
+        a.search-link.mdl-navigation__link(href='') Search
+    main.mdl-layout__content
+      .page-content
+        h4.mdl-typegraphy--title Current page Data:
+        h5.mdl-typegraphy--subhead Title:
+        h6.title.mdl-typography--body-2 This page has no title.
+        h5.mdl-typegraphy--subhead Description:
+        p.description No description is available for this page.
+        h5.mdl-typegraphy--subhead Link:
+        a.url.external-link Link
+        h5.mdl-typegraphy--subhead Keywords:
+        .keywords No keywords for this page.
+
+        button.add-button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored
+          i.material-icons add
+        .mdl-tooltip.mdl-tooltip--top(for="add-button") Save this page
+
+        .toast.mdl-js-snackbar.mdl-snackbar
+          .mdl-snackbar__text
+          button.mdl-snackbar__action(type='button')
+  
+      //- This is the Search view included in the home view inorder to not repeat the Drowar layout code twice    
+      include search
